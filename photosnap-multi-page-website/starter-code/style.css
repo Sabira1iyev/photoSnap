@@ -11,6 +11,7 @@ body {
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -86,6 +87,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.invite-content img {
+    cursor: pointer;
 }
 
 .invite p {
@@ -180,6 +185,14 @@ body {
     color: #000000;
 }
 
+.group-fourteen .fourteen-image {
+    width: 100%;
+}
+
+.fourteen-image img {
+    width: 100%;
+}
+
 .group-fourteen #fourteen-design {
     width: 100%;
     font-size: 15px;
@@ -195,6 +208,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
 
 .invite-fourteen p {
     color: #000000;
@@ -225,7 +240,11 @@ body {
     position: relative;
 }
 
-.photo {
+
+
+
+.photos {
+    width: 100%;
     object-fit: cover;
     object-position: center;
     display: block;
@@ -254,9 +273,193 @@ body {
     border-bottom: 1px solid rgb(214, 214, 214);
 }
 
+.name h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.name p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
 .read-story {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.read-story p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+}
+
+.read-story img {
+    cursor: pointer;
+}
+
+.container-19 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 33px;
+    gap: 80px;
+}
+
+.container-19 .responsive {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.responsive .info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+.info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    opacity: 60%;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    background-color: #000000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 33px;
+    gap: 80px;
+}
+
+.footer-contents {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.photo-socials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.photo-socials .socials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.socials a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.footer-links a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.footer-links a:hover {
+    color: #a8a8a8;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.footer-container .invite-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-container .invite-content p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.invite-content p:hover{
+    border-bottom: 1px solid;
+}
+
+.copyright-content{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #a8a8a8;
 }
