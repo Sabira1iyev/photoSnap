@@ -1,14 +1,15 @@
 const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close");
 const menuSections = document.querySelector(".menu-sections");
-const mobilePhotoSnap = document.querySelector(".mobile-photosnap");
+const photoSnap = document.querySelector(".mobile-photosnap");
+
 
 menuBtn.addEventListener("click", () => {
     menuSections.classList.add("active");
     menuBtn.style.display = "none";
     closeBtn.classList.add("active")
     closeBtn.style.display = "block";
-    mobilePhotoSnap.style.backgroundColor = "rgba(0,0,0,0.5)";
+    photoSnap.style.backgroundColor = "rgba(0,0,0,0.5)";
 })
 
 closeBtn.addEventListener("click", () => {
@@ -16,5 +17,6 @@ closeBtn.addEventListener("click", () => {
     closeBtn.classList.remove("active");
     closeBtn.style.display = "none";
     menuBtn.style.display = "block";
-    mobilePhotoSnap.style.backgroundColor = "";
+        photoSnap.style.backgroundColor = "";
+
 })
