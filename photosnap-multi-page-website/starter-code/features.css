@@ -97,6 +97,7 @@ body {
 }
 
 .group-4 {
+  margin-top: 72px;
   width: 100%;
   background-color: #000000;
   color: white;
@@ -120,7 +121,7 @@ body {
   flex-direction: column;
   align-items: start;
   padding: 80px 33px;
-  gap: 30px;
+  gap: 10px;
 }
 
 .group-content .content {
@@ -161,4 +162,219 @@ body {
 
 .invite img {
   margin-left: 15px;
+}
+
+.container-19 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 33px;
+  gap: 80px;
+}
+
+.container-19 .responsive {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.responsive .info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.info p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 60%;
+}
+
+.home-photos {
+  width: 100%;
+}
+
+.home-photos .container-1 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  text-align: left;
+}
+
+.home-photos .description {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  z-index: 100;
+  left: 0;
+  top: 50px;
+  padding: 0 20px;
+}
+
+.description .name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 3.33px;
+  color: #fff;
+}
+
+.container-1 img {
+  width: 100%;
+  display: block;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 33px;
+  gap: 80px;
+}
+
+.getInvite {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  gap: 20px;
+}
+
+.getInvite img {
+  width: 50px;
+}
+
+.footer-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.photo-socials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.photo-socials .socials {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.footer-links a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #a8a8a8;
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.footer-container .invite-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-container .invite-content p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.invite-content p:hover {
+  border-bottom: 1px solid;
+}
+
+.copyright-content {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #a8a8a8;
 }
