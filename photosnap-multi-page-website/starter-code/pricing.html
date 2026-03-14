@@ -13,14 +13,14 @@
 <body>
 
   <header class="header-container">
-    <img src="assets/stories/mobile/Group.png" alt="" />
+    <img src="assets/stories/mobile/Group.png" alt="" class="home"/>
     <img class="menu-btn" src="assets/shared/mobile/menu.svg" alt="" />
     <img class="close" src="assets/shared/mobile/close.svg" alt="" />
     <div class="menu-sections">
       <div class="links">
-        <a href="#">STORIES</a>
-        <a href="">FEATURES</a>
-        <a href="">PRICING</a>
+        <a href="stories.html" class="stories">STORIES</a>
+        <a href="features.html" class="features">FEATURES</a>
+        <a href="pricing.html" class="pricing">PRICING</a>
       </div>
       <button class="get-invite">GET AN INVITE</button>
     </div>
@@ -42,21 +42,332 @@
     </div>
 
 
-    <div class="product-container">
+    <div class="product-container" id="basic">
       <div class="close-open">
         <p class="monthly">Monthly</p>
         <img src="assets/pricing/mobile/Group 11.png" alt="">
         <p class="yearly">Yearly</p>
+      </div>
 
+      <div class="product-content">
+        <div class="title">
+          <h3>Basic</h3>
+          <p>Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
+        </div>
+        <div class="price-button">
+          <h2>$19.00</h2>
+          <p>per month</p>
+          <buton class="pick-plan">PICK PLAN</buton>
+        </div>
+      </div>
 
-        
+      <div class="product-content" id="pro">
+        <div class="title">
+          <h3>Pro</h3>
+          <p>More advanced features available. Recommended for photography veterans and professionals.</p>
+        </div>
+        <div class="price-button">
+          <h2>$39.00</h2>
+          <p>per month</p>
+          <buton class="pick-plan" id="pro-button">PICK PLAN</buton>
+        </div>
+      </div>
 
-
-
+      <div class="product-content" id="business">
+        <div class="title">
+          <h3>Business</h3>
+          <p>Additional features available such as more detailed metrics. Recommended for business owners.</p>
+        </div>
+        <div class="price-button">
+          <h2>$99.00</h2>
+          <p>per month</p>
+          <buton class="pick-plan">PICK PLAN</buton>
+        </div>
       </div>
     </div>
 
+    <div class="features-containers">
+      <div class="features">
+        <p>THE FEATURES</p>
+      </div>
+
+      <div class="features-contents">
+
+
+        <div class="features-content" id="unlimited-posting">
+          <div class="name">
+            <p>UNLIMITED STORY POSTING</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="features-content" id="unlimited-upload">
+          <div class="name">
+            <p>UNLIMITED PHOTO UPLOAD</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="features-content" id="embedding-content">
+          <div class="name">
+            <p>EMBEDDING CUSTOM CONTENT</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon"></div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="features-content" id="customize-metadata">
+          <div class="name">
+            <p>CUSTOMIZE METADATA</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon"></div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="features-content" id="advanced-metrics">
+          <div class="name">
+            <p>ADVANCED METRICS</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon"></div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="features-content" id="photo-downloads">
+          <div class="name">
+            <p>PHOTO DOWNLOADS</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon"></div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="features-content" id="search-indexing">
+          <div class="name">
+            <p>SEARCH ENGINE INDEXING</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon"></div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="features-content" id="custom-analytics">
+          <div class="name">
+            <p>CUSTOM ANALYTICS</p>
+          </div>
+          <div class="levels">
+            <div class="basic level">
+              <p>BASIC</p>
+              <div class="icon"></div>
+            </div>
+
+            <div class="pro level">
+              <p>PRO</p>
+              <div class="icon">
+
+              </div>
+            </div>
+
+            <div class="business level">
+              <p>BUSINESS</p>
+              <div class="icon">
+                <img src="assets/pricing/desktop/check.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="home-photos">
+        <div class="container-1 container">
+          <img
+            class="mountains photos"
+            src="assets/shared/mobile/bg-beta.jpg"
+            alt=""
+          />
+          <div class="description">
+            <div class="name">
+              <h3>WE'RE IN BETA. GET YOUR INVITE TODAY!</h3>
+            </div>
+            <div class="getInvite">
+              <p>GET INVITE</p>
+              <img src="assets/stories/mobile/Group 6 (1).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
   </section>
+
+
+   <footer class="footer-container">
+      <div class="footer-contents">
+        <div class="photo-socials">
+          <img src="assets/stories/mobile/Group (1).png" alt="" />
+          <div class="socials">
+            <a href="#"><i class="ri-facebook-box-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-pinterest-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="">HOME</a>
+          <a href="">STORIES</a>
+          <a href="">FEATURES</a>
+          <a href="">PRICING</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="invite-content">
+          <p class="stories">GET AN INVITE</p>
+          <img src="assets/stories/mobile/Group 6 (1).png" />
+        </div>
+        <p class="copyright-content">Copyright 2019. All Rights Reserved</p>
+      </div>
+    </footer>
 
 
 

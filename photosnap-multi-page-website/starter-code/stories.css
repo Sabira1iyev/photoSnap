@@ -70,6 +70,7 @@
   line-height: 100%;
   letter-spacing: 2.5px;
   color: #000000;
+  display: block;
 }
 
 .get-invite {

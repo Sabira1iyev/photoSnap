@@ -2,7 +2,9 @@ const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close");
 const menuSections = document.querySelector(".menu-sections");
 const photoSnap = document.querySelector(".mobile-photosnap");
-
+const stories = document.querySelector(".stories");
+const features = document.querySelector(".features");
+const home = document.querySelector(".home");
 
 menuBtn.addEventListener("click", () => {
     menuSections.classList.add("active");
@@ -20,3 +22,9 @@ closeBtn.addEventListener("click", () => {
         photoSnap.style.backgroundColor = "";
 
 })
+
+
+home.addEventListener("click", () =>{
+    window.location.href = "index.html";
+})
+ 

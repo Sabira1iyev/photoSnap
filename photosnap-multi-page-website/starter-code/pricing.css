@@ -79,6 +79,7 @@ body {
   line-height: 100%;
   letter-spacing: 2.5px;
   color: #000000;
+  display: block;
 }
 
 .get-invite {
@@ -180,6 +181,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 .close-open {
@@ -198,10 +200,398 @@ body {
   color: #000000;
 }
 
- .close-open .yearly{
+.close-open .yearly {
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0px;
   opacity: 50%;
+}
+
+.product-content {
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+.product-content .title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.product-content .title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.product-content .title p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 70%;
+}
+
+.price-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.price-button h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 4.17px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price-button p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.pick-plan {
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+}
+
+.product-container #pro {
+  position: relative;
+  background-color: #000000;
+  color: #fff;
+}
+
+.product-container #pro:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+
+.product-container #pro #pro-button {
+  background-color: #fff;
+  color: #000000;
+}
+
+
+.features-containers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  text-align: left;
+  padding: 10px 33px;
+  gap: 30px;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.features p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.features-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-contents .name {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+}
+
+
+.features-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0px;
+  border-bottom: 1px solid #DFDFDF;
+  border-top: 1px solid #000000;
+}
+
+.levels {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+
+.levels .level {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.levels .level img {
+  width: 16px;
+  height: 12px;
+}
+
+.levels .level .icon {
+  height: 12px;
+}
+
+.level p {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 1.67px;
+  opacity: 60%;
+}
+
+
+
+#unlimited-upload {
+  border-top: none;
+}
+
+#embedding-content {
+  border-top: none;
+}
+
+#customize-metadata {
+  border-top: none;
+}
+
+#advanced-metrics {
+  border-top: none;
+}
+
+#photo-downloads {
+  border-top: none;
+}
+
+#search-indexing {
+  border-top: none;
+}
+
+#custom-analytics {
+  border-top: none;
+}
+
+
+.home-photos {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  margin-top: 50px;
+}
+
+.home-photos .container-1 {
+  width: 100%;
+  display: flex;
+  text-align: left;
+}
+
+.home-photos .description {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  z-index: 100;
+  left: 0;
+  top: 60px;
+  padding: 0 20px;
+}
+
+.description .name {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 3.33px;
+  color: #fff;
+}
+
+.container-1 img {
+  width: 100%;
+  display: block;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 33px;
+  gap: 80px;
+}
+
+.getInvite {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  gap: 20px;
+}
+
+.getInvite img {
+  width: 50px;
+  color: #fff;
+}
+
+.footer-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.photo-socials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.photo-socials .socials {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.footer-links a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #a8a8a8;
+}
+
+.copyright {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.footer-container .invite-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-container .invite-content p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.invite-content p:hover {
+  border-bottom: 1px solid;
+}
+
+.copyright-content {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #a8a8a8;
 }
