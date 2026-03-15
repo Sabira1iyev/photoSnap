@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="stories.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
 
   <title>Frontend Mentor | Photosnap Website Challenge</title>
@@ -12,7 +14,7 @@
 
 <body>
   <header class="header-container">
-    <img src="assets/stories/mobile/Group.png" alt="" class="home"/>
+    <img src="assets/stories/mobile/Group.png" alt="" class="home" />
     <img class="menu-btn" src="assets/shared/mobile/menu.svg" alt="" />
     <img class="close" src="assets/shared/mobile/close.svg" alt="" />
     <div class="menu-sections">
@@ -28,7 +30,8 @@
   <section class="stories-section">
     <div class="hazyFull-container">
       <div class="moon-image">
-        <img src="assets/stories/mobile/moon-of-appalacia.jpg" alt="" />
+        <img src="assets/stories/mobile/moon-of-appalacia.jpg" alt="" class="moon-image-mobile" />
+        <img src="assets/stories/tablet/moon-of-appalacia.jpg" alt="" class="moon-image-tablet" />
       </div>
       <div class="group-content" id="hazy">
         <h3>LAST MONTH’S FEATURED STORY</h3>
@@ -37,7 +40,7 @@
         </h2>
         <div class="date-name">
           <p class="date">March 2nd 2020</p>
-          <p class="name">by John Appleseed</p>
+          <p class="name hazyfull-name">by John Appleseed</p>
         </div>
         <p class="platf-content">
           The dissected plateau area, while not actually made up of geological
@@ -51,6 +54,8 @@
         </div>
       </div>
     </div>
+
+
 
     <div class="home-photos">
       <div class="container-1 container">
@@ -296,34 +301,36 @@
   </section>
 
 
-  <footer class="footer-container">
-    <div class="footer-contents">
-      <div class="photo-socials">
-        <img src="assets/stories/mobile/Group (1).png" alt="">
+   <footer class="footer-container">
+    <div class="container-one">
+      <img src="assets/stories/mobile/Group (1).png" alt="">
+      <div class="social-links">
         <div class="socials">
-          <a href="#"><i class="ri-facebook-box-fill"></i></a>
-          <a href="#"><i class="ri-youtube-fill"></i></a>
-          <a href="#"><i class="ri-twitter-fill"></i></a>
-          <a href="#"><i class="ri-pinterest-fill"></i></a>
-          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#" id="facebook"><i class="ri-facebook-box-fill"></i></a>
+          <a href="#" id="youtube"><i class="ri-youtube-fill"></i></a>
+          <a href="#" id="twitter"><i class="ri-twitter-fill"></i></a>
+          <a href="#" id="pinterest"><i class="ri-pinterest-fill"></i></a>
+          <a href="#" id="instagram"><i class="ri-instagram-line"></i></a>
+        </div>
+        <div class="links-footer">
+          <a href="index.html">HOME</a>
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
         </div>
       </div>
-      <div class="footer-links">
-        <a href="">HOME</a>
-        <a href="">STORIES</a>
-        <a href="">FEATURES</a>
-        <a href="">PRICING</a>
+    </div>
+
+    <div class="container-two">
+      <div class="footer-invite">
+        <p>GET AN INVITE</p>
+        <img src="assets/stories/mobile/Group 6 (1).png" alt="">
+      </div>
+      <div class="copyright">
+        <p>Copyright 2026. All Rights Reserved</p>
       </div>
     </div>
 
-    <div class="copyright">
-
-      <div class="invite-content">
-        <p class="stories">GET AN INVITE</p>
-        <img src="assets/stories/mobile/Group 6 (1).png">
-      </div>
-      <p class="copyright-content">Copyright 2019. All Rights Reserved</p>
-    </div>
   </footer>
 
   <script src="script.js"></script>

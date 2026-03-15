@@ -56,7 +56,7 @@ body {
     display: none;
 }
 
-.menu-sections.active{
+.menu-sections.active {
     display: flex;
 }
 
@@ -64,7 +64,7 @@ body {
     display: none;
 }
 
-.close.active{
+.close.active {
     display: flex;
 }
 
@@ -105,6 +105,9 @@ body {
     cursor: pointer;
 }
 
+.group-14 {
+    width: 100%;
+}
 
 .group-4 {
     width: 100%;
@@ -115,6 +118,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.bitmap-image .create-share-tablet {
+    display: none;
+}
+
 
 .bitmap-image {
     width: 100%;
@@ -190,6 +198,10 @@ body {
     width: 100%;
 }
 
+.five-image .beautiful-stories-tablet {
+    display: none;
+}
+
 
 .group-five {
     width: 100%;
@@ -260,6 +272,10 @@ body {
 
 .fourteen-image img {
     width: 100%;
+}
+
+.fourteen-image .designed-everyone-tablet {
+    display: none;
 }
 
 .group-fourteen #fourteen-design {
@@ -422,113 +438,332 @@ body {
     opacity: 60%;
 }
 
+
 .footer-container {
     width: 100%;
-    display: flex;
     background-color: #000000;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 33px;
-    gap: 80px;
-}
-
-.footer-contents {
-    width: 100%;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 40px 20px;
+    gap: 100px;
+}
+
+.container-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
 }
 
-.photo-socials {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 25px;
-}
-
-.photo-socials .socials {
+.socials {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .socials a {
-    font-size: 24px;
-    color: white;
     text-decoration: none;
+    color: #fff;
+    font-size: 28px;
     cursor: pointer;
+    transition: .5s ease;
 }
 
-.footer-links {
+.socials #facebook:hover {
+    background: linear-gradient(225deg, #63AFDB 0%, #6028F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socials #youtube:hover {
+    background: linear-gradient(45deg, #D3205A 0%, #FF5A5A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socials #twitter:hover {
+    background: linear-gradient(225deg, #65FFEB 0%, #27718A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socials #pinterest:hover {
+    background: linear-gradient(225deg, #F6C683 0%, #DE3838 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socials #instagram:hover {
+    background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-links {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 25px;
+    gap: 50px;
 }
 
-.footer-links a {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 2px;
+.links-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.links-footer a {
     color: #FFFFFF;
-    text-decoration: none;
+    cursor: pointer;
     transition: .3s ease;
+    text-decoration: none;
 }
 
-.footer-links a:hover {
-    color: #a8a8a8;
+.links-footer a:hover {
+    color: #c2c2c2;
 }
 
-.copyright {
+.container-two {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     gap: 40px;
 }
 
-.footer-container .invite-content {
+.footer-invite {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-}
-
-.footer-container .invite-content p {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 100%;
-    letter-spacing: 2px;
-    color: #FFFFFF;
+    gap: 30px;
     cursor: pointer;
 }
 
-.invite-content p:hover {
-    border-bottom: 1px solid;
+.footer-invite p:hover {
+    text-decoration: underline;
 }
 
-.copyright-content {
-    font-size: 15px;
+.copyright p {
     font-weight: 400;
+    font-size: 15px;
     line-height: 100%;
     letter-spacing: 0px;
-    color: #a8a8a8;
+    text-align: center;
+    color: #cfcfcf;
+
+}
+
+
+
+@media (min-width:768px) {
+    .group-4 {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .bitmap-image img,
+    .five-image img {
+        display: block;
+    }
+
+    .group-4 .create-share-tablet {
+        display: block;
+    }
+
+    .group-4 .create-share-mobile {
+        display: none;
+    }
+
+    .bitmap-image {
+        width: 30%;
+    }
+
+    .group-content {
+        width: 70%;
+    }
+
+    .group-content #four-content {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        text-transform: uppercase;
+    }
+
+    .group-content .platf-content {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+
+    }
+
+
+    .group-5 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .group-5 .five-image {
+        width: 30%;
+    }
+
+    .group-5 .group-five {
+        width: 70%;
+    }
+
+    .group-5 .beautiful-stories-mobile {
+        display: none;
+    }
+
+    .five-image .beautiful-stories-tablet {
+        display: block;
+    }
+
+    .group-five #five-content {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        text-transform: uppercase;
+    }
+
+    .group-five .design-content {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+
+
+    .group-14 {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .group-14 .fourteen-image {
+        width: 30%;
+    }
+
+    .group-fourteen {
+        width: 70%;
+    }
+
+    .group-14 .designed-everyone-mobile {
+        display: none;
+    }
+
+    .group-14 .designed-everyone-tablet {
+        display: block;
+    }
+
+    .group-fourteen #fourteen-content {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+        text-transform: uppercase;
+    }
+
+    .group-fourteen .photosnap-content {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+
+    .home-photos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container-19 .info p {
+        padding: 0 10%;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+    }
+
+    .container-one {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: start;
+    }
+
+    .social-links {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: start;
+        text-align: left;
+        gap: 100px;
+    }
+
+    .socials {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+
+    .links-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .container-two {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: end;
+        gap: 170px;
+    }
+
+    .footer-invite {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: end;
+        gap: 30px;
+        cursor: pointer;
+    }
+
+    .copyright p {
+        margin-bottom: 20px;
+    }
+
 }
